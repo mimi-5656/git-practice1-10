@@ -28,21 +28,21 @@ main{
 }
 
 .visual-img1{
-  background-image: url(img9-2/flow01.png) ;
+  background-image: url(img1-10/flow01.png) ;
   background-size: cover;
   background-position: bottom;
   height: 150px;
 }
 
 .visual-img2{
-  background-image: url(img9-2/flow02.png) ;
+  background-image: url(img1-10/flow02.png) ;
   background-size: cover;
   background-position: bottom;
   height: 150px;
 }
 
 .visual-img3{
-  background-image: url(img9-2/flow03.png) ;
+  background-image: url(img1-10/flow03.png) ;
   background-size: cover;
   background-position: bottom;
   height: 150px;
@@ -63,4 +63,29 @@ main{
 .footer{
   height: 50px;
   background-color:#AAAAAA;
+}
+
+@media screen and (max-width: 768px){
+  .header{
+    width: 100%;
+  }
+
+  main{
+    width: 100%;
+    margin: 50px auto;
+    display: block;
+  }
+
+  .visual{
+    width: 90%;
+    margin: 0 20px 20px 20px;
+  }
+
+  .visual:last-child{
+    margin-bottom: 0;
+  }
+
+  .footer{
+    width: 100%;
+  }
 }
